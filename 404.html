@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Progressive Web Office</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://s-celles.github.io/progressive-web-office/">
+  <script>
+    // /pwo/<path>?<query>#<hash> -> /progressive-web-office/<path>?<query>#<hash>
+    var l = window.location;
+    var path = l.pathname.replace(/^\/pwo(\/|$)/, '/');
+    l.replace('/progressive-web-office' + path + l.search + l.hash);
+  </script>
+  <meta http-equiv="refresh" content="0; url=https://s-celles.github.io/progressive-web-office/">
+</head>
+<body>
+  <p>Redirecting to <a href="https://s-celles.github.io/progressive-web-office/">Progressive Web Office</a>…</p>
+</body>
+</html>

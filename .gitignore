@@ -1,0 +1,6 @@
+# gitallow: ignore everything, then allow what is tracked
+*
+!.gitignore
+!index.html
+!404.html
+!README.md
